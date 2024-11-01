@@ -49,7 +49,7 @@ public class InterfaceGenerator : IIncrementalGenerator
 
         context.RegisterSourceOutput(pipeline, static (context, model) =>
         {
-            if (model == null || !model.Methods.Any()) return; // Safeguard against null models or empty methods
+            if (model == null || !model.Methods.Any()) return;
 
             var sourceText = SourceText.From($$"""
                                                namespace {{model.Namespace}};

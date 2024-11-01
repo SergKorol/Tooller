@@ -1,4 +1,4 @@
-namespace Tooller.Metadata;
+namespace Tooller.Interface.Attributes;
 
 public class Namespace : Attribute
 {

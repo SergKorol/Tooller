@@ -3,7 +3,6 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Tooller.SourceGenerator.InterfaceGenerator;
 
-
 namespace Tooller.Unit;
 
 public class InterfaceGeneratorTests

@@ -23,7 +23,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Tooller.Metadata\Tooller.Metadata.csproj" PrivateAssets="all" />
       <ProjectReference Include="..\Tooller.SourceGenerator\Tooller.SourceGenerator.csproj" PrivateAssets="all" />
     </ItemGroup>
 
