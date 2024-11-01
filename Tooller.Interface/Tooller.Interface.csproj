@@ -13,13 +13,13 @@
         <PackageProjectUrl>https://github.com/SergKorol/Tooller</PackageProjectUrl>
         <RepositoryUrl>https://github.com/SergKorol/Tooller</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageIcon>icon</PackageIcon>
+        <PackaeIcon>icon.png</PackaeIcon>
         <PackageTags>.NET</PackageTags>
         <PackageReleaseNotes>Added generating interfaces</PackageReleaseNotes>
         <Title>Tooller</Title>
     </PropertyGroup>
     <ItemGroup>
-        <None Include="icon.png" CopyToOutputDirectory="Always" />
+        <None Include="icon.png" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
     <ItemGroup>
