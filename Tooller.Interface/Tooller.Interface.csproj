@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Tooller.Interface</PackageId>
-        <Version>0.1.1</Version>
+        <Version>0.1.2</Version>
         <Authors>Serhii Korol</Authors>
         <Product>Tooler</Product>
         <Description>Tool for simplifying development</Description>
