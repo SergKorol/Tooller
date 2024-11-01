@@ -19,4 +19,9 @@
         <Title>Tooller</Title>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Tooller.Metadata\Tooller.Metadata.csproj" />
+      <ProjectReference Include="..\Tooller.SourceGenerator\Tooller.SourceGenerator.csproj" />
+    </ItemGroup>
+
 </Project>
