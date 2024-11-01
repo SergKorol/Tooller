@@ -4,6 +4,19 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>Tooller</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>Serhii Korol</Authors>
+        <Product>Tooler</Product>
+        <Description>Tool for simplifying development</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/SergKorol/Tooller</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/SergKorol/Tooller</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageTags>.NET</PackageTags>
+        <PackageReleaseNotes>Added generating interfaces</PackageReleaseNotes>
+        <Title>Tooller</Title>
     </PropertyGroup>
 
 </Project>
