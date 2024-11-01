@@ -32,7 +32,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Create the package
-      run: dotnet pack --configuration Release Tooller.Interface.csproj
+      run: dotnet pack --configuration Release Tooller.Interface/Tooller.Interface.csproj
     ##- name: Publish the package to Repository
       ##run: dotnet nuget push Tooller.SourceGenerator/bin/Release/*.nupkg -k ${{ secrets.GH_TOKEN }} -s $NUGET_REPO_URL --skip-duplicate
     ##- name: Publish to NuGet.org
