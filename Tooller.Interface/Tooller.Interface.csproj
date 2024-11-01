@@ -18,6 +18,9 @@
         <PackageReleaseNotes>Added generating interfaces</PackageReleaseNotes>
         <Title>Tooller</Title>
     </PropertyGroup>
+    <ItemGroup>
+        <None Include="icon.png" CopyToOutputDirectory="Always" />
+    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Tooller.Metadata\Tooller.Metadata.csproj" />
