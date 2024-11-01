@@ -13,7 +13,7 @@
         <PackageProjectUrl>https://github.com/SergKorol/Tooller</PackageProjectUrl>
         <RepositoryUrl>https://github.com/SergKorol/Tooller</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageIcon>icon.png</PackageIcon>
+        <PackageIcon>icon</PackageIcon>
         <PackageTags>.NET</PackageTags>
         <PackageReleaseNotes>Added generating interfaces</PackageReleaseNotes>
         <Title>Tooller</Title>
