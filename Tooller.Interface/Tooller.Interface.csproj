@@ -1,11 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Tooller.Interface</PackageId>
-        <Version>0.1.3</Version>
+        <Version>0.1.4</Version>
         <Authors>Serhii Korol</Authors>
         <Product>Tooler</Product>
         <Description>Tool for simplifying development</Description>
@@ -17,6 +16,8 @@
         <PackageTags>.NET</PackageTags>
         <PackageReleaseNotes>Added generating interfaces</PackageReleaseNotes>
         <Title>Tooller</Title>
+        <LangVersion>default</LangVersion>
+        <TargetFramework>net9.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
         <None Include="icon.png" Pack="true" PackagePath="\"/>
