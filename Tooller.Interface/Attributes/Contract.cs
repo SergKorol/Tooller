@@ -1,3 +1,5 @@
+using System;
+
 namespace Tooller.Interface.Attributes;
 
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]

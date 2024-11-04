@@ -1,3 +1,5 @@
+using System;
+
 namespace Tooller.Interface.Attributes;
 
 public class Namespace : Attribute
