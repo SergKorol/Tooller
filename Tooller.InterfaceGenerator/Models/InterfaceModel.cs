@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Tooller.SourceGenerator.Models;
+namespace Tooller.InterfaceGenerator.Models;
 
 public class InterfaceModel
 {

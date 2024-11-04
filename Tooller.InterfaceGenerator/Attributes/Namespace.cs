@@ -1,6 +1,6 @@
 using System;
 
-namespace Tooller.Interface.Attributes;
+namespace Tooller.InterfaceGenerator.Attributes;
 
 public class Namespace : Attribute
 {

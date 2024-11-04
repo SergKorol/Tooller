@@ -1,11 +1,10 @@
 using FluentAssertions;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
-using Tooller.SourceGenerator.InterfaceGenerator;
 
 namespace Tooller.Unit;
 
-public class InterfaceGeneratorTests
+public class IncrementalInterfaceGeneratorTests
 {
     [Fact]
     public void GenerateInterface_WithoutCustomNamespace()
@@ -85,7 +84,7 @@ public interface IUserClass
             references: references,
             options: new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary));
 
-        var generator = new InterfaceGenerator();
+        var generator = new InterfaceGenerator.InterfaceGenerator.IncrementalInterfaceGenerator();
         CSharpGeneratorDriver.Create(generator)
             .RunGeneratorsAndUpdateCompilation(compilation, out var outputCompilation, out _);
 

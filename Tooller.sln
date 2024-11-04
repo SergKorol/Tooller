@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tooller.SourceGenerator", "Tooller.SourceGenerator\Tooller.SourceGenerator.csproj", "{272459C0-9B34-42B0-8126-94D62EB91584}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tooller.InterfaceGenerator", "Tooller.InterfaceGenerator\Tooller.InterfaceGenerator.csproj", "{272459C0-9B34-42B0-8126-94D62EB91584}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tooller.Unit", "Tooller.Unit\Tooller.Unit.csproj", "{3CD5C941-27A3-4B42-BDAE-FA55F6BF0520}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tooller.Interface", "Tooller.Interface\Tooller.Interface.csproj", "{E7A12FD0-F4D2-4B7E-9E5A-8D172BEF3115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +18,5 @@ Global
 		{3CD5C941-27A3-4B42-BDAE-FA55F6BF0520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CD5C941-27A3-4B42-BDAE-FA55F6BF0520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CD5C941-27A3-4B42-BDAE-FA55F6BF0520}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7A12FD0-F4D2-4B7E-9E5A-8D172BEF3115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7A12FD0-F4D2-4B7E-9E5A-8D172BEF3115}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7A12FD0-F4D2-4B7E-9E5A-8D172BEF3115}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7A12FD0-F4D2-4B7E-9E5A-8D172BEF3115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

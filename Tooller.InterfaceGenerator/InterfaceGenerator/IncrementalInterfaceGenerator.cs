@@ -4,13 +4,13 @@ using System.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
-using Tooller.SourceGenerator.Models;
+using Tooller.InterfaceGenerator.Models;
 
-namespace Tooller.SourceGenerator.InterfaceGenerator;
+namespace Tooller.InterfaceGenerator.InterfaceGenerator;
 
 #nullable enable
 [Generator]
-public class InterfaceGenerator : IIncrementalGenerator
+public class IncrementalInterfaceGenerator : IIncrementalGenerator
 {
 
     public void Initialize(IncrementalGeneratorInitializationContext context)
