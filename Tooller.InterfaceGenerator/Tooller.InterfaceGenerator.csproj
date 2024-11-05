@@ -8,7 +8,7 @@
     </PropertyGroup>
     <PropertyGroup>
         <PackageId>Tooller.InterfaceGenerator</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Authors>Serhii Korol</Authors>
         <Product>Tooller</Product>
         <Description>Tool for simplifying development</Description>
