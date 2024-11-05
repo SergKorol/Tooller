@@ -4,7 +4,6 @@ if($project.Object.SupportsPackageDependencyResolution)
 {
     if($project.Object.SupportsPackageDependencyResolution())
     {
-        # Do not uninstall analyzers via uninstall.ps1, instead let the project system handle it.
         return
     }
 }
@@ -13,7 +12,6 @@ $analyzersPaths = Join-Path (Join-Path (Split-Path -Path $toolsPath -Parent) "an
 
 foreach($analyzersPath in $analyzersPaths)
 {
-    # Uninstall the language agnostic analyzers.
     if (Test-Path $analyzersPath)
     {
         foreach ($analyzerFilePath in Get-ChildItem -Path "$analyzersPath\*.dll" -Exclude *.resources.dll)
@@ -26,7 +24,6 @@ foreach($analyzersPath in $analyzersPaths)
     }
 }
 
-# $project.Type gives the language name like (C# or VB.NET)
 $languageFolder = ""
 if($project.Type -eq "C#")
 {
@@ -43,7 +40,6 @@ if($languageFolder -eq "")
 
 foreach($analyzersPath in $analyzersPaths)
 {
-    # Uninstall language specific analyzers.
     $languageAnalyzersPath = join-path $analyzersPath $languageFolder
     if (Test-Path $languageAnalyzersPath)
     {

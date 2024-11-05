@@ -43,7 +43,6 @@ if($languageFolder -eq "")
 
 foreach($analyzersPath in $analyzersPaths)
 {
-    # Install language specific analyzers.
     $languageAnalyzersPath = join-path $analyzersPath $languageFolder
     if (Test-Path $languageAnalyzersPath)
     {
